@@ -68,9 +68,7 @@ public class DictController extends BaseController {
 	@PostMapping("/save")
 	@RequiresPermissions("common:dict:add")
 	public R save(DictDO dict) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
+
 		if (dictService.save(dict) > 0) {
 			return R.ok();
 		}
@@ -84,9 +82,7 @@ public class DictController extends BaseController {
 	@RequestMapping("/update")
 	@RequiresPermissions("common:dict:edit")
 	public R update(DictDO dict) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
+
 		dictService.update(dict);
 		return R.ok();
 	}
@@ -98,9 +94,7 @@ public class DictController extends BaseController {
 	@ResponseBody
 	@RequiresPermissions("common:dict:remove")
 	public R remove(Long id) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
+
 		if (dictService.remove(id) > 0) {
 			return R.ok();
 		}
@@ -114,9 +108,7 @@ public class DictController extends BaseController {
 	@ResponseBody
 	@RequiresPermissions("common:dict:batchRemove")
 	public R remove(@RequestParam("ids[]") Long[] ids) {
-		if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-			return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-		}
+
 		dictService.batchRemove(ids);
 		return R.ok();
 	}

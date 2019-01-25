@@ -68,9 +68,7 @@ public class SalaryController extends BaseController{
     @ResponseBody
     @PostMapping("/save")
     public R saveOrUpdate(SalaryDO salary) {
-        if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-            return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-        }
+
         salary.setCreateDate(new Date());
         salary.setUpdateDate(new Date());
         salary.setCreateBy(ShiroUtils.getUserId().toString());
@@ -88,9 +86,7 @@ public class SalaryController extends BaseController{
     @ResponseBody
     @RequestMapping("/update")
     public R update(SalaryDO salary) {
-        if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-            return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-        }
+
         String taskKey = activitiUtils.getTaskByTaskId(salary.getTaskId()).getTaskDefinitionKey();
         if ("audit2".equals(taskKey)) {
             salary.setHrText(salary.getTaskComment());
@@ -111,9 +107,7 @@ public class SalaryController extends BaseController{
     @PostMapping("/remove")
     @ResponseBody
     public R remove(String id) {
-        if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-            return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-        }
+
         if (salaryService.remove(id) > 0) {
             return R.ok();
         }
@@ -126,9 +120,7 @@ public class SalaryController extends BaseController{
     @PostMapping("/batchRemove")
     @ResponseBody
     public R remove(@RequestParam("ids[]") String[] ids) {
-        if (Constant.DEMO_ACCOUNT.equals(getUsername())) {
-            return R.error(1, "演示系统不允许修改,完整体验请部署程序");
-        }
+
         salaryService.batchRemove(ids);
         return R.ok();
     }
