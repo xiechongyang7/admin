@@ -3,26 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="57d343d4-ba5e-4dec-8be0-4f49ba431fe2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/applog/2019-01-25/2019-01-25.log" beforeDir="false" afterPath="$PROJECT_DIR$/applog/2019-01-25/2019-01-25.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/config/BootdoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/config/BootdoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/config/WebConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/config/WebConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/controller/DictController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/controller/DictController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/controller/FileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/dao/DictDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/dao/DictDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/dao/FileDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/dao/FileDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/domain/DictDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/domain/DictDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/domain/FileDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/domain/FileDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/service/DictService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/service/DictService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/service/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/service/impl/DictServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/service/impl/DictServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/service/impl/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/service/impl/FileServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/controller/NotifyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/controller/NotifyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/dao/NotifyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/dao/NotifyDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/dao/NotifyRecordDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/dao/NotifyRecordDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/domain/NotifyDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/domain/NotifyDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/domain/NotifyDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/domain/NotifyDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/domain/NotifyRecordDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/domain/NotifyRecordDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/NotifyRecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/NotifyRecordService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/NotifyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/NotifyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/impl/NotifyRecordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/impl/NotifyRecordServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/impl/NotifyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/impl/NotifyServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootdo/src/main/resources/mybatis/common/DictMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootdo/src/main/resources/mybatis/common/FileMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootdo/src/main/resources/mybatis/oa/NotifyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootdo/src/main/resources/mybatis/oa/NotifyRecordMapper.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bootdo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,56 +27,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FileDao.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/dao/FileDao.java">
+      <file leaf-file-name="NotifyController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/controller/NotifyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="225">
+              <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/service/impl/FileServiceImpl.java">
+      <file leaf-file-name="NotifyServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/impl/NotifyServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            <state relative-caret-position="134">
+              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebConfigurer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/config/WebConfigurer.java">
+      <file leaf-file-name="NotifyDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/dao/NotifyDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+            <state relative-caret-position="103">
+              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringBootSampleApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/config/SpringBootSampleApplication.java">
+      <file leaf-file-name="NotifyService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/NotifyService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            <state relative-caret-position="165">
+              <caret line="15" column="19" selection-end-line="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/service/impl/UserServiceImpl.java">
+      <file leaf-file-name="NotifyRecordService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/NotifyRecordService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-225">
-              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="285">
+              <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BootdoConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/config/BootdoConfig.java">
+      <file leaf-file-name="NotifyDTO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/domain/NotifyDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+            <state relative-caret-position="165">
+              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotifyRecordDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/dao/NotifyRecordDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotifyRecordServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/impl/NotifyRecordServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="15" column="15" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -92,9 +103,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/blog</find>
-      <find>/login</find>
-      <find>historyService</find>
       <find>HistoryService</find>
       <find>面向学习型的开源框架，简洁高效，减少过渡封装，展现技术本质</find>
       <find>favicon</find>
@@ -122,6 +130,9 @@
       <find>password</find>
       <find>bootdoConfig</find>
       <find>bootdo</find>
+      <find>UserServiceImpl</find>
+      <find>UserService</find>
+      <find>com.bootdo.oa.domain.NotifyDO</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -137,14 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/blog/service/ContentService.java" />
-        <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/blog/domain/ContentDO.java" />
-        <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/blog/dao/ContentDao.java" />
-        <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/blog/controller/BlogController.java" />
-        <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/blog/controller/ContentController.java" />
-        <option value="$PROJECT_DIR$/bootdo/src/main/resources/templates/main.html" />
-        <option value="$PROJECT_DIR$/bootdo/src/main/resources/mybatis/blog/ContentMapper.xml" />
-        <option value="$PROJECT_DIR$/bootdo/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/bootdo/src/main/resources/templates/index_v1.html" />
         <option value="$PROJECT_DIR$/bootdo/src/main/resources/templates/blog/index/about.html" />
         <option value="$PROJECT_DIR$/bootdo/src/main/resources/templates/blog/index/main.html" />
@@ -176,9 +179,6 @@
         <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/service/DictService.java" />
         <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/controller/DictController.java" />
         <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/dao/DictDao.java" />
-        <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/controller/NotifyController.java" />
-        <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/impl/NotifyServiceImpl.java" />
-        <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/controller/UserController.java" />
         <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/domain/FileDO.java" />
         <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/service/FileService.java" />
         <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/controller/FileController.java" />
@@ -188,6 +188,17 @@
         <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/service/impl/FileServiceImpl.java" />
         <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/config/WebConfigurer.java" />
         <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/domain/NotifyDO.java" />
+        <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/domain/NotifyRecordDO.java" />
+        <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/impl/NotifyRecordServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/NotifyRecordService.java" />
+        <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/NotifyService.java" />
+        <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/controller/NotifyController.java" />
+        <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/dao/NotifyDao.java" />
+        <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/impl/NotifyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/domain/NotifyDTO.java" />
+        <option value="$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/dao/NotifyRecordDao.java" />
       </list>
     </option>
   </component>
@@ -220,6 +231,225 @@
             <path>
               <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="oa" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="chart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bootdo-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bootdo-master" type="462c0819:PsiDirectoryNode" />
+              <item name="bootdo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="diagram-viewer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -320,7 +550,7 @@
       <updated>1548398976246</updated>
       <workItem from="1548398977936" duration="6428000" />
       <workItem from="1548639615740" duration="43000" />
-      <workItem from="1548992882783" duration="2403000" />
+      <workItem from="1548992882783" duration="3338000" />
     </task>
     <task id="LOCAL-00001" summary="去掉blog">
       <created>1548404159728</created>
@@ -343,14 +573,22 @@
       <option name="project" value="LOCAL" />
       <updated>1548404940086</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="删除">
+      <created>1549000919959</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549000919959</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9750000" />
+    <option name="totallyTimeSpent" value="10685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -362,7 +600,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5427136" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44053602" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32663316" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -373,7 +611,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.24080268" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31240544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31240544" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -386,38 +624,38 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.24080268" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32943144" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven Projects" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.27836612" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info id="Web" order="5" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="6" />
-      <window_info anchor="bottom" id="Debug" order="10" visible="true" weight="0.17558528" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24080268" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32663316" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32998326" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31240544" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44053602" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,66 +667,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="去掉blog" />
     <MESSAGE value="删除blog" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除blog" />
+    <MESSAGE value="删除" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/quartz/utils/QuartzManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/quartz/factory/JobFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/redis/shiro/RedisCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2093">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="975" column="19" selection-start-line="975" selection-start-column="19" selection-end-line="975" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/config/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/controller/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/controller/RoleController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -586,20 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/mybatis/oa/NotifyMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/dao/NotifyDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootdo/bootdo.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -656,44 +829,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/controller/NotifyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/mybatis/common/DictMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/impl/NotifyServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="74" column="13" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1987#1988#0" expanded="true" />
-            <element signature="e#2014#2015#0" expanded="true" />
-            <element signature="e#2087#2088#0" expanded="true" />
-            <element signature="e#2114#2115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="53" column="59" lean-forward="true" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,13 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/common/service/impl/FileServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
@@ -796,6 +928,107 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/system/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/domain/NotifyDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="12" column="27" selection-end-line="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/domain/NotifyRecordDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="15" selection-end-line="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/impl/NotifyRecordServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="15" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/NotifyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="19" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/dao/NotifyDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/impl/NotifyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/resources/mybatis/oa/NotifyMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/controller/NotifyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/service/NotifyRecordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/domain/NotifyDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootdo/src/main/java/com/bootdo/oa/dao/NotifyRecordDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
