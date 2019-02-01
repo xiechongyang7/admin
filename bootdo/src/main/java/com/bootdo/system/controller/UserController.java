@@ -5,7 +5,7 @@ import com.bootdo.common.config.Constant;
 import com.bootdo.common.controller.BaseController;
 import com.bootdo.common.domain.FileDO;
 import com.bootdo.common.domain.Tree;
-import com.bootdo.common.service.DictService;
+//import com.bootdo.common.service.DictService;
 import com.bootdo.common.utils.*;
 import com.bootdo.system.domain.DeptDO;
 import com.bootdo.system.domain.RoleDO;
@@ -38,8 +38,8 @@ public class UserController extends BaseController {
 	UserService userService;
 	@Autowired
 	RoleService roleService;
-	@Autowired
-	DictService dictService;
+//	@Autowired
+//	DictService dictService;
 	@RequiresPermissions("sys:user:user")
 	@GetMapping("")
 	String user(Model model) {
@@ -199,14 +199,14 @@ public class UserController extends BaseController {
 		return  prefix + "/userTree";
 	}
 
-	@GetMapping("/personal")
-	String personal(Model model) {
-		UserDO userDO  = userService.get(getUserId());
-		model.addAttribute("user",userDO);
-		model.addAttribute("hobbyList",dictService.getHobbyList(userDO));
-		model.addAttribute("sexList",dictService.getSexList());
-		return prefix + "/personal";
-	}
+//	@GetMapping("/personal")
+//	String personal(Model model) {
+//		UserDO userDO  = userService.get(getUserId());
+//		model.addAttribute("user",userDO);
+//		model.addAttribute("hobbyList",dictService.getHobbyList(userDO));
+//		model.addAttribute("sexList",dictService.getSexList());
+//		return prefix + "/personal";
+//	}
 	@ResponseBody
 	@PostMapping("/uploadImg")
 	R uploadImg(@RequestParam("avatar_file") MultipartFile file, String avatar_data, HttpServletRequest request) {

@@ -14,7 +14,7 @@ import java.util.concurrent.LinkedBlockingDeque;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-import com.bootdo.common.service.DictService;
+//import com.bootdo.common.service.DictService;
 import com.bootdo.common.utils.DateUtils;
 import com.bootdo.common.utils.PageUtils;
 import com.bootdo.oa.dao.NotifyDao;
@@ -33,27 +33,37 @@ public class NotifyServiceImpl implements NotifyService {
     private NotifyRecordDao recordDao;
     @Autowired
     private UserDao userDao;
-    @Autowired
-    private DictService dictService;
+//    @Autowired
+//    private DictService dictService;
     @Autowired
     private SessionService sessionService;
     @Autowired
     private SimpMessagingTemplate template;
 
+//    @Override
+//    public NotifyDO get(Long id) {
+//        NotifyDO rDO = notifyDao.get(id);
+//        rDO.setType(dictService.getName("oa_notify_type", rDO.getType()));
+//        return rDO;
+//    }
+//
+//    @Override
+//    public List<NotifyDO> list(Map<String, Object> map) {
+//        List<NotifyDO> notifys = notifyDao.list(map);
+//        for (NotifyDO notifyDO : notifys) {
+//            notifyDO.setType(dictService.getName("oa_notify_type", notifyDO.getType()));
+//        }
+//        return notifys;
+//    }
+
     @Override
     public NotifyDO get(Long id) {
-        NotifyDO rDO = notifyDao.get(id);
-        rDO.setType(dictService.getName("oa_notify_type", rDO.getType()));
-        return rDO;
+        return null;
     }
 
     @Override
     public List<NotifyDO> list(Map<String, Object> map) {
-        List<NotifyDO> notifys = notifyDao.list(map);
-        for (NotifyDO notifyDO : notifys) {
-            notifyDO.setType(dictService.getName("oa_notify_type", notifyDO.getType()));
-        }
-        return notifys;
+        return null;
     }
 
     @Override

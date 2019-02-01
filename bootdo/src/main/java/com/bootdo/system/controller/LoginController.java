@@ -1,11 +1,11 @@
 package com.bootdo.system.controller;
 
 import com.bootdo.common.annotation.Log;
-import com.bootdo.common.config.BootdoConfig;
+//import com.bootdo.common.config.BootdoConfig;
 import com.bootdo.common.controller.BaseController;
-import com.bootdo.common.domain.FileDO;
+//import com.bootdo.common.domain.FileDO;
 import com.bootdo.common.domain.Tree;
-import com.bootdo.common.service.FileService;
+//import com.bootdo.common.service.FileService;
 import com.bootdo.common.utils.MD5Utils;
 import com.bootdo.common.utils.R;
 import com.bootdo.common.utils.ShiroUtils;
@@ -33,10 +33,10 @@ public class LoginController extends BaseController {
 
     @Autowired
     MenuService menuService;
-    @Autowired
-    FileService fileService;
-    @Autowired
-    BootdoConfig bootdoConfig;
+//    @Autowired
+//    FileService fileService;
+//    @Autowired
+//    BootdoConfig bootdoConfig;
 
     @GetMapping({"/", ""})
     String welcome(Model model) {
@@ -50,24 +50,24 @@ public class LoginController extends BaseController {
         List<Tree<MenuDO>> menus = menuService.listMenuTree(getUserId());
         model.addAttribute("menus", menus);
         model.addAttribute("name", getUser().getName());
-        FileDO fileDO = fileService.get(getUser().getPicId());
-        if (fileDO != null && fileDO.getUrl() != null) {
-            if (fileService.isExist(fileDO.getUrl())) {
-                model.addAttribute("picUrl", fileDO.getUrl());
-            } else {
+//        FileDO fileDO = fileService.get(getUser().getPicId());
+//        if (fileDO != null && fileDO.getUrl() != null) {
+//            if (fileService.isExist(fileDO.getUrl())) {
+//                model.addAttribute("picUrl", fileDO.getUrl());
+//            } else {
                 model.addAttribute("picUrl", "/img/photo_s.jpg");
-            }
-        } else {
-            model.addAttribute("picUrl", "/img/photo_s.jpg");
-        }
-        model.addAttribute("username", getUser().getUsername());
+//            }
+//        } else {
+//            model.addAttribute("picUrl", "/img/photo_s.jpg");
+//        }
+//        model.addAttribute("username", getUser().getUsername());
         return "index_v1";
     }
 
     @GetMapping("/login")
     String login(Model model) {
-        model.addAttribute("username", bootdoConfig.getUsername());
-        model.addAttribute("password", bootdoConfig.getPassword());
+        model.addAttribute("username", "admin");
+        model.addAttribute("password", "111111");
         return "login";
     }
 

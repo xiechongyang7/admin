@@ -2,8 +2,8 @@ package com.bootdo.oa.controller;
 
 import com.bootdo.common.config.Constant;
 import com.bootdo.common.controller.BaseController;
-import com.bootdo.common.domain.DictDO;
-import com.bootdo.common.service.DictService;
+//import com.bootdo.common.domain.DictDO;
+//import com.bootdo.common.service.DictService;
 import com.bootdo.common.utils.PageUtils;
 import com.bootdo.common.utils.Query;
 import com.bootdo.common.utils.R;
@@ -38,8 +38,8 @@ public class NotifyController extends BaseController {
 	private NotifyService notifyService;
 	@Autowired
 	private NotifyRecordService notifyRecordService;
-	@Autowired
-	private DictService dictService;
+//	@Autowired
+//	private DictService dictService;
 
 	@GetMapping()
 	@RequiresPermissions("oa:notify:notify")
@@ -65,21 +65,21 @@ public class NotifyController extends BaseController {
 		return "oa/notify/add";
 	}
 
-	@GetMapping("/edit/{id}")
-	@RequiresPermissions("oa:notify:edit")
-	String edit(@PathVariable("id") Long id, Model model) {
-		NotifyDO notify = notifyService.get(id);
-		List<DictDO> dictDOS = dictService.listByType("oa_notify_type");
-		String type = notify.getType();
-		for (DictDO dictDO:dictDOS){
-			if(type.equals(dictDO.getValue())){
-				dictDO.setRemarks("checked");
-			}
-		}
-		model.addAttribute("oaNotifyTypes",dictDOS);
-		model.addAttribute("notify", notify);
-		return "oa/notify/edit";
-	}
+//	@GetMapping("/edit/{id}")
+//	@RequiresPermissions("oa:notify:edit")
+//	String edit(@PathVariable("id") Long id, Model model) {
+//		NotifyDO notify = notifyService.get(id);
+//		List<DictDO> dictDOS = dictService.listByType("oa_notify_type");
+//		String type = notify.getType();
+//		for (DictDO dictDO:dictDOS){
+//			if(type.equals(dictDO.getValue())){
+//				dictDO.setRemarks("checked");
+//			}
+//		}
+//		model.addAttribute("oaNotifyTypes",dictDOS);
+//		model.addAttribute("notify", notify);
+//		return "oa/notify/edit";
+//	}
 
 	/**
 	 * 保存
