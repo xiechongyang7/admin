@@ -33,19 +33,19 @@
                                     <input type="text" class="form-control" id="userName" name="name" th:value="${user.name}"  placeholder="请输入姓名" />
                                 </div>
                             </div>
-                            <div class="gg-formGroup">
-                                <div class="gg-formTitle">
-                                    <em class="gg-star">*</em>
-                                    <span>性别:</span>
-                                </div>
-                                <div class="gg-formDetail">
-                                    <div class="radio i-checks">
-                                        <label class="radio-inline" th:each="sex:${sexList}"> <input
-                                                th:field="*{user.sex}" type="radio" name="sex" th:value="${sex.id}" th:text="${sex.name}"/>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
+                            <!--<div class="gg-formGroup">-->
+                                <!--<div class="gg-formTitle">-->
+                                    <!--<em class="gg-star">*</em>-->
+                                    <!--<span>性别:</span>-->
+                                <!--</div>-->
+                                <!--<div class="gg-formDetail">-->
+                                    <!--<div class="radio i-checks">-->
+                                        <!--<label class="radio-inline" th:each="sex:${sexList}"> <input-->
+                                                <!--th:field="*{user.sex}" type="radio" name="sex" th:value="${sex.id}" th:text="${sex.name}"/>-->
+                                        <!--</label>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
                             <div class="gg-formGroup">
                                 <div class="gg-formTitle">
                                     <em class="gg-star">*</em>
@@ -103,20 +103,20 @@
                                     <input type="text" class="form-control" id="address" name="liveAddress" th:value="${user.liveAddress}" placeholder="请输入居住地址" />
                                 </div>
                             </div>
-                            <div class="gg-formGroup">
-                                <div class="gg-formTitle">
-                                    <em class="gg-star">*</em>
-                                    <span>爱好:</span>
-                                </div>
-                                <div class="gg-formDetail">
-                                    <div class="checxbox i-checks" >
-                                        <input type="hidden" name="hobby" id="hobby"/>
-                                        <label th:each="hobby : ${hobbyList}">
-                                            <input type="checkbox" class="hobby"  th:value="${hobby.id}" th:text="${hobby.name}" th:checked="${hobby.remarks}=='true'"/>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
+                            <!--<div class="gg-formGroup">-->
+                                <!--<div class="gg-formTitle">-->
+                                    <!--<em class="gg-star">*</em>-->
+                                    <!--<span>爱好:</span>-->
+                                <!--</div>-->
+                                <!--<div class="gg-formDetail">-->
+                                    <!--<div class="checxbox i-checks" >-->
+                                        <!--<input type="hidden" name="hobby" id="hobby"/>-->
+                                        <!--<label th:each="hobby : ${hobbyList}">-->
+                                            <!--<input type="checkbox" class="hobby"  th:value="${hobby.id}" th:text="${hobby.name}" th:checked="${hobby.remarks}=='true'"/>-->
+                                        <!--</label>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
                         </form>
                         <div class="gg-btnGroup">
                             <button type="button" class="btn btn-sm btn-primary" id="base_save">保存</button>

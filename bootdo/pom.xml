@@ -51,10 +51,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
-        <dependency>
-            <groupId>net.sourceforge.nekohtml</groupId>
-            <artifactId>nekohtml</artifactId>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>net.sourceforge.nekohtml</groupId>-->
+            <!--<artifactId>nekohtml</artifactId>-->
+        <!--</dependency>-->
         <!--mybatis -->
         <dependency>
             <groupId>mysql</groupId>
@@ -158,17 +158,17 @@
         <!--</dependency>-->
 
 
-        <dependency>
-            <groupId>org.quartz-scheduler</groupId>
-            <artifactId>quartz</artifactId>
-            <version>2.2.1</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>slf4j-api</artifactId>
-                    <groupId>org.slf4j</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.quartz-scheduler</groupId>-->
+            <!--<artifactId>quartz</artifactId>-->
+            <!--<version>2.2.1</version>-->
+            <!--<exclusions>-->
+                <!--<exclusion>-->
+                    <!--<artifactId>slf4j-api</artifactId>-->
+                    <!--<groupId>org.slf4j</groupId>-->
+                <!--</exclusion>-->
+            <!--</exclusions>-->
+        <!--</dependency>-->
         <!-- SpringWebSocket依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -184,27 +184,27 @@
         <!--<optional>true</optional>-->
         <!--</dependency>-->
         <!--activiti-->
-        <dependency>
-            <groupId>org.activiti</groupId>
-            <artifactId>activiti-engine</artifactId>
-            <version>${activiti.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.activiti</groupId>-->
+            <!--<artifactId>activiti-engine</artifactId>-->
+            <!--<version>${activiti.version}</version>-->
+        <!--</dependency>-->
 
-        <dependency>
-            <groupId>org.activiti</groupId>
-            <artifactId>activiti-spring</artifactId>
-            <version>${activiti.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.activiti</groupId>
-            <artifactId>activiti-modeler</artifactId>
-            <version>${activiti.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.activiti</groupId>
-            <artifactId>activiti-diagram-rest</artifactId>
-            <version>${activiti.version}</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.activiti</groupId>-->
+            <!--<artifactId>activiti-spring</artifactId>-->
+            <!--<version>${activiti.version}</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.activiti</groupId>-->
+            <!--<artifactId>activiti-modeler</artifactId>-->
+            <!--<version>${activiti.version}</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.activiti</groupId>-->
+            <!--<artifactId>activiti-diagram-rest</artifactId>-->
+            <!--<version>${activiti.version}</version>-->
+        <!--</dependency>-->
 
         <!--swagger2-->
         <dependency>
